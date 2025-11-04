@@ -1,0 +1,188 @@
+/* TempleOS 16 CGA Colors */
+/* :root {
+    --cga-black: #000000;
+    --cga-blue: #0000AA;
+    --cga-green: #00AA00;
+    --cga-cyan: #00AAAA;
+    --cga-red: #AA0000;
+    --cga-magenta: #AA00AA;
+    --cga-brown: #AA5500;
+    --cga-light-gray: #AAAAAA;
+    --cga-dark-gray: #555555;
+    --cga-light-blue: #5555FF;
+    --cga-light-green: #55FF55;
+    --cga-light-cyan: #55FFFF;
+    --cga-light-red: #FF5555;
+    --cga-light-magenta: #FF55FF;
+    --cga-yellow: #FFFF55;
+    --cga-white: #FFFFFF;
+} */
+
+body {
+    background: #1bc9c9;
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+}
+
+nav ul {
+    list-style-type: none;
+    background: #FFFFFF;
+    border: 2px solid #FFD800;
+    padding: 4px;
+    margin: 0 0 20px 0;
+    display: flex;
+    gap: 10px;
+}
+
+nav ul li {
+    margin: 0 5px 0 0;
+    padding: 0;
+}
+
+nav ul li a {
+    background: #FFD800;
+    color: #0000AA;
+    border: 2px solid #FF0000;
+    padding: 2px 14px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Courier New', monospace;
+}
+
+nav ul li a:hover {
+    background: #FF0000;
+    color: #FFFFFF;
+}
+
+h1,
+h2,
+h3 {
+    color: #0000AA;
+    background: #FFFFFF;
+    border-left: 8px solid #FFD800;
+    border-bottom: 2px solid #0000AA;
+    padding: 4px 8px;
+    font-family: 'Courier New', monospace;
+    margin-top: 18px;
+    margin-bottom: 9px;
+}
+
+section {
+    background: #FFFFFF;
+    border: 3px solid #0000AA;
+    box-shadow: 0 0 0 3px #FFD800 inset;
+    margin: 22px 32px;
+    padding: 18px 14px 16px 14px;
+}
+
+ul,
+ol {
+    background: #E1E1E1;
+    border: 2px solid #FFD800;
+    font-family: 'Courier New', monospace;
+    color: #0000AA;
+    padding: 13px 18px;
+    margin: 10px 0;
+}
+
+table {
+    width: 97%;
+    margin: 13px auto;
+    border-collapse: collapse;
+    background: #FFFFFF;
+    color: #0000AA;
+    font-family: 'Courier New', monospace;
+    border: 3px solid #FFD800;
+    font-size: 16px;
+}
+
+th,
+td {
+    border: 2px solid #0000AA;
+    padding: 8px 12px;
+}
+
+th {
+    background: #FFD800;
+    color: #FF0000;
+    font-size: 17px;
+    font-family: 'Courier New', monospace;
+}
+
+/* img {
+    display: block;
+    margin: 16px auto;
+    border: 4px solid #FFD800;
+    background: #FFFFFF;
+    width: 210px;
+    height: 210px;
+    object-fit: contain;
+} */
+
+form {
+    background: #FFFFFF;
+    border: 2px solid #0000AA;
+    color: #FF0000;
+    font-family: 'Courier New', monospace;
+    padding: 13px 18px 13px 18px;
+    width: 65%;
+    margin: 0 auto;
+}
+
+label,
+input,
+textarea {
+    font-family: 'Courier New', monospace;
+    font-size: 15px;
+    color: #0000AA;
+    background: #FFFFFF;
+    border: 1px solid #FFD800;
+    margin: 9px 0 6px 0;
+    display: block;
+}
+
+input,
+textarea {
+    width: 97%;
+    padding: 3px 2px;
+}
+
+button {
+    background: #FFD800;
+    color: #FF0000;
+    font-family: 'Courier New', monospace;
+    font-size: 16px;
+    border: 2px solid #0000AA;
+    padding: 4px 18px;
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #FF0000;
+    color: #FFFFFF;
+}
+
+footer {
+    background: #FFFFFF;
+    color: #0000AA;
+    padding: 10px 0 12px 0;
+    border-top: 4px double #FFD800;
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    font-size: 17px;
+}
+
+a {
+    color: rgb(26, 0, 143);
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color: #ffffff;
+}
