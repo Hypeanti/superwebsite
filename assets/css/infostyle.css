@@ -1,0 +1,116 @@
+body {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(154, 252, 186);
+}
+h1 {
+    font-family: 'Silkscreen', cursive;
+}
+.Title1 {
+    font-family: 'Silkscreen', cursive;
+    font-size: 50px;
+    padding-top: 90px;
+}
+.Description1 {
+    font-family: 'Silkscreen', cursive;
+    font-size: 25px;
+    margin: 0 50px;
+    text-align: left;
+}
+header {
+
+    background: linear-gradient(to bottom, #12751d, #1e9a2d);
+    padding: 65px 225px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+
+    z-index: 1000;
+
+    font-size: 25px;
+}
+.allLeft {
+    display: flex;
+}
+.ggLogo {
+    min-height: 75px;
+    min-width: 175px;
+    max-height: 75px;
+    max-width: 175px;
+}
+.ggName {
+    min-height: 75px;
+    min-width: 200px;
+    max-height: 75px;
+    max-width: 200px;
+
+}
+
+a {
+    text-decoration:none;
+    color:white;
+}
+.navbar {
+    background: linear-gradient(to bottom, #2f7c38, #3fb14d);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 200px;
+    z-index: 1000;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+ 
+    font-size: 20px;
+
+}
+.navlist {
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    margin-right: 200px;
+}
+.allRight ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 40px;
+    align-self: flex-start;
+    border-radius: 2px;
+    border: 3px solid rgb(128, 128, 127, 0.10);
+    background-color: rgb(117, 117, 109, 0.14);
+}
+
+.navlist ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 60px;
+    align-self: flex-start;
+
+}
+.allRight ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 40px;
+    align-self: flex-start;
+    border-radius: 2px;
+    border: 3px solid rgb(128, 128, 127, 0.10);
+    background-color: rgb(117, 117, 109, 0.14);
+}
+
+.navlist ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 60px;
+    align-self: flex-start;
+
+}
+@media(max-width:2000px) {
+
+    body {
+        zoom:0.6;
+
+    }
+}
