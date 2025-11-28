@@ -217,7 +217,7 @@ button.skipButton{
 
 .formOuter {
     display: flex;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.95)),url(images/tholder2.jpg);
+   
 
     padding: 40px;
     border-radius: 10px;
