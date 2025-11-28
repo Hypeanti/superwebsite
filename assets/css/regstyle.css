@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom, #158d23, #162d18);
+    background: linear-gradient(to bottom, #72D875, #D6EFD8);
     color: #ffffff;
     overflow-x:auto;
 }
@@ -112,6 +112,7 @@ a {
 }
 
 .pageCore {
+    background: linear-gradient(to bottom, #30752e, #99ff97);
     max-width: 90%;
     width: 100%;
     padding: 40px;
@@ -174,7 +175,7 @@ h1{
 
 .gameBackground {
     display: flex;
-    background: linear-gradient(to bottom, #12751d, #0e8e1d);
+    background: linear-gradient(to bottom, #3e813c, #71dd6e);
   
     border-radius: 10px;
     box-shadow: 0 5px 5px black;
