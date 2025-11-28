@@ -5,18 +5,19 @@ body {
   color: #fff;
 }
 
+/* new header css bellow 111111111111111111*/
 header {
-
-    background: linear-gradient(to bottom, #12751d, #1e9a2d);
-    padding: 65px 225px;
-    display: flex;
+    
+    background: #347531;
+    padding: 5px 30px;
+    display: flex;  
     align-items: center;
     justify-content: space-between;
     position: sticky;
     top: 0;
-
+   
     z-index: 1000;
-
+   
     font-size: 25px;
 }
 .allLeft {
@@ -33,7 +34,7 @@ header {
     min-width: 200px;
     max-height: 75px;
     max-width: 200px;
-
+    
 }
 
 a {
@@ -41,32 +42,35 @@ a {
     color:white;
 }
 .navbar {
-    background: linear-gradient(to bottom, #2f7c38, #3fb14d);
-
+    background: #80AF81;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: sticky;
-    top: 200px;
     z-index: 1000;
- 
+    
     font-size: 20px;
-
+    
 }
+
 .navlist {
     justify-content: flex-end;
     align-items: center;
     display: flex;
     margin-right: 200px;
 }
+
+
+
 .allRight ul li {
     list-style: none;
     display: inline-block;
-    margin: 0 40px;
+    margin: 0 20px;
     align-self: flex-start;
-    border-radius: 2px;
-    border: 3px solid rgb(128, 128, 127, 0.10);
-    background-color: rgb(117, 117, 109, 0.14);
+    font-size: 20px;
+    font-weight: medium;
+    text-transform: uppercase;
+    
 }
 
 .navlist ul li {
@@ -76,6 +80,9 @@ a {
     align-self: flex-start;
 
 }
+/* new header css above1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111*/
+
+
 @media(max-width:2000px) {
 
     body {
