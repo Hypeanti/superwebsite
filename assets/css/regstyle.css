@@ -163,6 +163,7 @@ h1{
 .gameText {
     font-size: 25px;
     max-width: 750px;
+    color: black;
 }
 .gameImage {
     height: auto;
