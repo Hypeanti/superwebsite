@@ -3,7 +3,6 @@ body {
     text-align: center;
     color: rgb(0, 0, 0);
     background-color: rgb(154, 252, 186);
-    margin: 0;
 }
 html {
     scroll-behavior: smooth;
@@ -12,7 +11,7 @@ html {
   display: flex;
   background-color: dodgerBlue;
   justify-content: center;
-    }
+}
 .container {
     display: flex;
     background-color: #0b9d23;
@@ -25,14 +24,47 @@ h1 {
 }
 .Title1 {
     font-family: 'Silkscreen', cursive;
-    font-size: 50px;
+    font-size: 60px;
     padding-top: 90px;
 }
 .Description1 {
     font-family: 'Silkscreen', cursive;
-    font-size: 25px;
+    font-size: 38px;
     margin: 0 50px;
     text-align: left;
+}
+.videoText {
+    font-family: 'Silkscreen', cursive;
+    text-align:center;
+    padding-top: 90px;
+    font-size: 40px;
+}
+.videoText1Desc {
+    font-family: 'Silkscreen', cursive;
+    text-align: left;
+    position: relative; left: 130px;
+}
+.videoText2Desc {
+    font-family: 'Silkscreen', cursive;
+    text-align: center;
+    position: relative; top: -575px; right: 20px;
+}
+.gifTextDesc {
+    font-family: 'Silkscreen', cursive;
+    text-align: center;
+    position: relative; left: 1100px; top: -1150px;
+    font-size: 20px;
+}
+.Video1 {
+    text-align: left;
+}
+.Video2 {
+    text-align: center;
+    position: relative; top: -575px; right: 20px
+}
+.gif1 {
+    text-align: right;
+    position: relative; top: -1150px; right: 100px;
 }
 header {
 
