@@ -44,12 +44,12 @@
 
 
 body {
-    font-size: 20px;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    background-color: rgb(154, 252, 186);
-    overflow-x:hidden;
-    margin:0;
+    margin: 0;
+    color: #000000;
+    overflow-x:auto;
+    background: #D6EFD8;
+    background: linear-gradient(180deg,rgba(214, 239, 216, 1) 0%, rgba(114, 216, 117, 1) 100%);
+    font-family: 'M PLUS 2', sans-serif;
 }
 html {
     scroll-behavior: smooth;
@@ -61,7 +61,7 @@ html {
 }
 .container {
     display: flex;
-    background-color: #0b9d23;
+    background-color: #94dfa093;
     margin: 10px;
     padding: 20px;
     font-size: 24px;
@@ -149,7 +149,7 @@ a {
     color:white;
 }
 .navbar {
-    background: linear-gradient(to bottom, #2f7c38, #3fb14d);
+    background: #639c65;
     /*padding: 65px 225px;*/
     display: flex;
     align-items: center;
@@ -201,6 +201,25 @@ a {
     margin: 10px 60px;
     align-self: flex-start;
 
+}
+
+.auth button {
+    background: #009E22;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 22px;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.auth a{
+    font-weight: normal;
+    font-size: 20px;
+    color: #dfdfdf;
+    padding: 12px;
+    text-decoration: underline;
 }
 
 .search-container {
@@ -274,6 +293,17 @@ a {
 .lang-btn:hover,
 .region-btn:hover {
     background: #ffffff7a;
+}
+
+
+.slider-container {
+    width: 80%;
+    margin: 30px auto;
+    background: #8edc8c;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+    overflow: hidden;
 }
 
 

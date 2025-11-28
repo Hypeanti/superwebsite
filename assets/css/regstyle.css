@@ -46,10 +46,11 @@
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom, #72D875, #D6EFD8);
     color: #ffffff;
     overflow-x:auto;
+    background: #D6EFD8;
+    background: linear-gradient(180deg,rgba(214, 239, 216, 1) 0%, rgba(114, 216, 117, 1) 100%);
+    font-family: 'M PLUS 2', sans-serif;
 }
 html{
     scroll-behavior:smooth;
@@ -91,7 +92,7 @@ a {
     color:white;
 }
 .navbar {
-    background: linear-gradient(to bottom, #2f7c38, #3fb14d);
+    background: #639c65;
     /*padding: 65px 225px;*/
     display: flex;
     align-items: center;
@@ -112,6 +113,25 @@ a {
     margin-right: 200px;
 }
 
+
+.auth button {
+    background: #009E22;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 22px;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.auth a{
+    font-weight: normal;
+    font-size: 20px;
+    color: #dfdfdf;
+    padding: 12px;
+    text-decoration: underline;
+}
 
 .search-container {
     
@@ -184,6 +204,17 @@ a {
 .lang-btn:hover,
 .region-btn:hover {
     background: #ffffff7a;
+}
+
+
+.slider-container {
+    width: 80%;
+    margin: 30px auto;
+    background: #8edc8c;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+    overflow: hidden;
 }
 
 
