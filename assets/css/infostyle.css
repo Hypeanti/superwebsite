@@ -1,8 +1,54 @@
+/*for smaller screens*/
+@media(max-width:2000px) {
+
+    body {
+        zoom:0.6;
+       
+     
+    }
+}
+@media(max-width:1500px) {
+
+    body {
+        zoom: 0.54;
+        
+       
+    }
+}
+@media(max-width:1000px) {
+
+    body {
+        zoom: 0.36;
+       
+        overflow-x:hidden;
+    }
+}
+
+
+
+/*for phone*/
+@media(max-width:600px) {
+
+    body {
+        zoom: 0.2;
+        
+    }
+}
+@media(max-width:300px) {
+
+    body {
+        zoom: 0.1;
+       
+    }
+}
+
+
 body {
     font-size: 20px;
     text-align: center;
     color: rgb(0, 0, 0);
     background-color: rgb(154, 252, 186);
+    overflow-x:hidden;
 }
 html {
     scroll-behavior: smooth;
@@ -155,10 +201,4 @@ a {
     align-self: flex-start;
 
 }
-@media(max-width:2000px) {
 
-    body {
-        zoom:0.36;
-
-    }
-}
